@@ -10,4 +10,7 @@ class Owner
     @@all
   end
 
+  def count
+    @@all.length
+  end
 end
