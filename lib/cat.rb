@@ -1,6 +1,6 @@
 class Cat
 
-  attr_accessor @owner, @mood, @name
+  attr_accessor @mood, @name
   def initialize(name)
     @name = name
   end
