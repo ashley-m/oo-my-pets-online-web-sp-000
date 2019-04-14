@@ -52,4 +52,12 @@ class Owner
     pets[:fishes].each {|f| f.mood = "happy"}
   end
 
+  def sell_pets
+    pets.each_key {|k|
+      pets[k].each {|p|
+        p.mood = "nervous"
+      }
+    }
+  end
+
 end
